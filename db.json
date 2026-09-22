@@ -1,0 +1,119 @@
+{
+  "niveles": [
+    {
+      "id": 0,
+      "nombre": "Simulacro",
+      "descripcion": "Entrenamiento básico dentro de la estación.",
+      "jugadorInicial": { "x": 60, "y": 436 },
+      "plataformas": [
+        { "id": "p0-1", "x": 0, "y": 470, "w": 420, "h": 70 },
+        { "id": "p0-2", "x": 470, "y": 400, "w": 140, "h": 20 },
+        { "id": "p0-3", "x": 640, "y": 470, "w": 320, "h": 70 },
+        { "id": "p0-4", "x": 640, "y": 130, "w": 320, "h": 24 }
+      ],
+      "cristales": [
+        { "id": "x0-1", "x": 200, "y": 454, "w": 16, "h": 16 },
+        { "id": "x0-2", "x": 525, "y": 384, "w": 16, "h": 16 },
+        { "id": "x0-3", "x": 900, "y": 150, "w": 16, "h": 16 }
+      ],
+      "trampas": [],
+      "lasers": [],
+      "interruptores": [],
+      "puertas": [],
+      "portal": { "x": 870, "y": 350 },
+      "mensajes": [
+        { "id": "m1", "trigger": "mover", "texto": "Muévete con las flechas ← →" },
+        { "id": "m2", "trigger": "saltar", "texto": "Pulsa ↑ para saltar" },
+        { "id": "m3", "trigger": "area", "x": 600, "w": 140, "texto": "Bajo el techo, pulsa ESPACIO para invertir la gravedad" },
+        { "id": "m4", "trigger": "cristal", "texto": "Recoge los 3 cristales para abrir el portal" },
+        { "id": "m5", "trigger": "portal", "texto": "¡Portal abierto! Entra para continuar" }
+      ]
+    },
+    {
+      "id": 1,
+      "nombre": "Primer Contacto",
+      "descripcion": "Primer entrenamiento de gravedad en la estación.",
+      "jugadorInicial": { "x": 60, "y": 436 },
+      "plataformas": [
+        { "id": "p1-1", "x": 0, "y": 470, "w": 180, "h": 70 },
+        { "id": "p1-2", "x": 250, "y": 470, "w": 160, "h": 70 },
+        { "id": "p1-3", "x": 480, "y": 470, "w": 170, "h": 70 },
+        { "id": "p1-4", "x": 480, "y": 380, "w": 120, "h": 18 },
+        { "id": "p1-5", "x": 720, "y": 470, "w": 240, "h": 70 }
+      ],
+      "cristales": [
+        { "id": "x1-1", "x": 110, "y": 454, "w": 16, "h": 16 },
+        { "id": "x1-2", "x": 530, "y": 364, "w": 16, "h": 16 },
+        { "id": "x1-3", "x": 800, "y": 454, "w": 16, "h": 16 }
+      ],
+      "trampas": [],
+      "lasers": [],
+      "interruptores": [],
+      "puertas": [],
+      "portal": { "x": 860, "y": 350 }
+    },
+    {
+      "id": 2,
+      "nombre": "Zona Inestable",
+      "descripcion": "Plataformas flotantes, láseres y saltos de gravedad.",
+      "jugadorInicial": { "x": 50, "y": 436 },
+      "plataformas": [
+        { "id": "p2-g", "x": 0, "y": 470, "w": 150, "h": 70 },
+        { "id": "p2-1", "x": 210, "y": 440, "w": 100, "h": 18 },
+        { "id": "p2-2", "x": 370, "y": 390, "w": 100, "h": 18 },
+        { "id": "p2-3", "x": 540, "y": 450, "w": 120, "h": 18 },
+        { "id": "p2-c", "x": 660, "y": 110, "w": 300, "h": 20 },
+        { "id": "p2-4", "x": 840, "y": 400, "w": 120, "h": 20 }
+      ],
+      "cristales": [
+        { "id": "x2-1", "x": 405, "y": 374, "w": 16, "h": 16 },
+        { "id": "x2-2", "x": 800, "y": 130, "w": 16, "h": 16 },
+        { "id": "x2-3", "x": 855, "y": 384, "w": 16, "h": 16 }
+      ],
+      "trampas": [],
+      "lasers": [
+        { "id": "l2-1", "x": 505, "y": 0, "w": 10, "h": 330 },
+        { "id": "l2-2", "x": 540, "y": 340, "w": 400, "h": 10, "periodico": true, "periodo": 6, "fase": 2 }
+      ],
+      "interruptores": [],
+      "puertas": [],
+      "portal": { "x": 864, "y": 280 }
+    },
+    {
+      "id": 3,
+      "nombre": "El Desafío",
+      "descripcion": "Picos, láseres, interruptores, puertas y cambios de gravedad.",
+      "jugadorInicial": { "x": 50, "y": 436 },
+      "plataformas": [
+        { "id": "p3-floor", "x": 0, "y": 470, "w": 230, "h": 70 },
+        { "id": "p3-spikefloor", "x": 300, "y": 470, "w": 230, "h": 70 },
+        { "id": "p3-slab", "x": 300, "y": 140, "w": 230, "h": 20 },
+        { "id": "p3-mid", "x": 535, "y": 420, "w": 145, "h": 18 },
+        { "id": "p3-hi", "x": 710, "y": 330, "w": 120, "h": 18 },
+        { "id": "p3-last", "x": 860, "y": 430, "w": 100, "h": 70 }
+      ],
+      "cristales": [
+        { "id": "x3-1", "x": 700, "y": 314, "w": 16, "h": 16 },
+        { "id": "x3-2", "x": 405, "y": 158, "w": 16, "h": 16 },
+        { "id": "x3-3", "x": 615, "y": 404, "w": 16, "h": 16 }
+      ],
+      "trampas": [
+        { "id": "t3-1", "x": 330, "y": 470, "w": 200, "h": 26 }
+      ],
+      "lasers": [
+        { "id": "l3-1", "x": 690, "y": 0, "w": 10, "h": 330 },
+        { "id": "l3-2", "x": 770, "y": 0, "w": 10, "h": 270 }
+      ],
+      "interruptores": [
+        { "id": "s3-1", "x": 150, "y": 444, "w": 40, "h": 16, "activo": false, "puertas": ["d3-1"], "tiempo": 10 },
+        { "id": "s3-2", "x": 862, "y": 414, "w": 40, "h": 16, "activo": false, "puertas": ["d3-2"] }
+      ],
+      "puertas": [
+        { "id": "d3-1", "x": 240, "y": 250, "w": 20, "h": 220 },
+        { "id": "d3-2", "x": 880, "y": 340, "w": 20, "h": 90 }
+      ],
+      "portal": { "x": 870, "y": 310 }
+    }
+  ],
+  "puntajes": []
+}
